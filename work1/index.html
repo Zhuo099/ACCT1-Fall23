@@ -8,11 +8,14 @@
 <body>
   <script>
   <canvas id="canvas" width="400" height="150"></canvas>
-  
-  fillText(hello, 20, 10)
+  const canvas = document.getElementById("canvas");
+  const ctx = canvas.getContext("2d");
+
+  ctx.font = "50px serif";
+  ctx.fillText("Hello world", 50, 90);
 
     
-  </script>
+  </script> 
 </body>
 </html>
 
