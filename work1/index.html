@@ -1,21 +1,43 @@
-<canvas id="myCanvas" width="150" height="300"></canvas>
-<script>
-//画布
-let canvas = document.getElementById('myCanvas');
-//画笔
-let ctx = canvas.getContext('2d');
-let img = new Image();
-<img src="3.png"/>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    #test {
+      box-shadow: 0 0 10px #333;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="test" width="500" height="400"></canvas>
+  <script>
+    //画布
+    let canvas = document.getElementById('test');
+    // 画笔
+    let ctx = canvas.getContext('2d');
 
+    let img = new Image();
+    img.src = './img/2.gif';
 
-img.onload = function(){
+    img.onload = function(){
+      // 方法一
+      // let ptrn = ctx.createPattern(img,'repeat');
+      // ctx.fillStyle = ptrn;
+      // ctx.fillRect(0,0,500,300);
 
-ctx. font = '10 arial';
-ctx.strokeStyle = 'rgb(0,0,0)';
-ctx.stroketext = 'splat,100,100)';
+      // 方法二
+      ctx.drawImage(this,0,0,500,500);
 
-}
+      // 添加文字
+      ctx.font = '10 Arial';
+      ctx.strokeStyle = 'rgb(0,233,0)';
+      ctx.strokeText('九段刀客',100,100);
+    }
+    
+  </script>
+</body>
+</html>
 
-</script>
 
 
