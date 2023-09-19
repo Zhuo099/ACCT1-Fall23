@@ -1,23 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Week 1: HTML</title>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    #test {
+      box-shadow: 0 0 10px #333;
+    }
+  </style>
 </head>
 <body>
-    <h1>hello world!</h1>
+  <canvas id="test" width="500" height="400"></canvas>
+  <script>
+    //画布
+    let canvas = document.getElementById('test');
+    // 画笔
+    let ctx = canvas.getContext('2d');
 
+    let img = new Image();
+    img.src = '3.png';
 
+    img.onload = function(){
 
-
-
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, dolorem cupiditate aperiam optio voluptates quaerat possimus adipisci incidunt sint accusantium, voluptas quod ex molestias distinctio totam nesciunt harum culpa. Expedita?</p>
-
-    <img src="quik.webp" alt="quokka" />
-
-    <ul>
-        <li><a href="https://www.artcenter.edu/"
-            target="_blank">ArtCenter</a></li>
-    </ul>
+      // 添加文字
+      ctx.font = '10 Arial';
+      ctx.strokeStyle = 'rgb(0,233,0)';
+      ctx.strokeText('九段刀客',100,100);
+    }
+    
+  </script>
+</body>
 </html>
