@@ -1,5 +1,5 @@
 img{
-    width: 255px;
+   max-width: 100%;
 }
 
 #specialImage{
@@ -7,7 +7,7 @@ img{
 }
 
 main,header{
-    width: 768px;
+    
     margin-left: auto;
     margin-right: auto;
  
