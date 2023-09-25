@@ -1,10 +1,10 @@
 img{
    max-width: 100%;
-   
+
 }
 
 #specialImage{
-    width: 175px;
+    max-width: 100%;
 }
 
 main,header{
@@ -19,12 +19,18 @@ main,header{
 nav ul{
     list-style: none;
     padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
 
 
 }
 
 nav ul li{
     display: inline-block;
+    padding: 10px;
+    border-bottom: 1px solid bisque;
 }
 
 .em-text{
@@ -45,5 +51,29 @@ a{
     background-color: bisque;
 }
 
+@media (min-width: 800px){
+        .red-text,
+        .green-text{
+            color: blueviolet;
+        }
+     nav ul{
+        flex-direction: row;
+        justify-content: space-between;
+        
+     }
+     nav ul li{
+        border:none;
+        padding: 0
+    ;
+
+     }
+     @media (min-width: 1000px){
+        .red-text,
+        .green-text{
+            color: blue;
+        }
+        
+     }
+}
 
  
