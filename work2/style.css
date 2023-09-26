@@ -1,14 +1,15 @@
 img{
-    max-width: 100%;
+    max-width: 50%;
 }
 #specialmage{
-    max-width: 100%;
+    max-width: 50%;
 }
 
 main,header{
     margin-left: auto;
     margin-right: auto;
 }
+
 
 h1{
     color: mediumpurple;
@@ -76,13 +77,16 @@ a{
      }
      @media (min-width: 1024px){
         .green-text{
+            background-color: lightgrey;
             color: cornflowerblue;
             font-style: initial;
         }
         .red-text{
+            background-color: lightgrey;
             color: burlywood;
         }
         .em-text{
+            background-color: lightgrey;
             color: chocolate;
         }
         a{
@@ -92,10 +96,13 @@ a{
         nav ul li{
              border: antiquewhite;
              padding: 2px;
+             outline-color: aquamarine;
+             outline-style: dotted;
         }
         nav ul{
             flex-direction: row;
             justify-content: space-between;
+            
             
          }
        
