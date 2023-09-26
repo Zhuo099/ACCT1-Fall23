@@ -31,6 +31,7 @@ nav ul li{
 }
 
 .em-text{
+    color: rosybrown;
     font-style: italic;
 }
 
@@ -48,19 +49,24 @@ a{
     background-color: bisque;
 }
 
-@media (min-width: 600px){
-        .red-text,
-        .green-text{
-            color: blueviolet;
-        }
-     nav ul{
-        flex-direction: row;
-        justify-content: space-between;
-        
-     }
+@media (min-width: 768px){
+    .green-text{
+        color: cadetblue;
+    }
+    .red-text{
+        color: hotpink;
+    }
+    .em-text{
+        color: mediumorchid;
+    }
+    a{
+        color: azure;
+        text-decoration: solid;
+        background-color: darkgreen;
+    }
      h1{
         color: coral;
-        justify-content: center;
+        text-align: center;
      }
      nav ul li{
         border:none;
@@ -68,18 +74,38 @@ a{
     ;
 
      }
-     @media (min-width: 800px){
+     @media (min-width: 1024px){
+        .green-text{
+            color: cornflowerblue;
+            font-style: initial;
+        }
         .red-text{
             color: burlywood;
-        }
-        .green-text{
-            color: darkslategrey;
         }
         .em-text{
             color: chocolate;
         }
-        
+        a{
+            color: blueviolet;
+            background-color: aquamarine;
+        }
+        nav ul li{
+             border: antiquewhite;
+             padding: 2px;
+        }
+        nav ul{
+            flex-direction: row;
+            justify-content: space-between;
+            
+         }
+       
      }
+     h1{
+        color: thistle;
+        
+    
+     }
+     
 }
 
  
