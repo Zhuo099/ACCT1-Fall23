@@ -10,6 +10,9 @@ main,header{
     margin-right: auto;
 }
 
+style{
+    max-width: fit-content;
+}
 
 h1{
     color: mediumpurple;
