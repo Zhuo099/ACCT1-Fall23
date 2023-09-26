@@ -1,27 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+  
+  <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
     <title>WORK 2: CSS</title>
+  <style>
+    div.gallery {
+      border: 1px solid #ccc;
+    }
+    
+    div.gallery:hover {
+      border: 1px solid #777;
+    }
+    
+    div.gallery img {
+      width: 100%;
+      height: auto;
+    }
+    
+    div.desc {
+      padding: 15px;
+      text-align: center;
+    }
+    
+    * {
+      box-sizing: border-box;
+    }
+    
+    .responsive {
+      padding: 0 6px;
+      float: left;
+      width: 24.99999%;
+    }
+    
+    @media only screen and (max-width: 700px) {
+      .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+      }
+    }
+    
+    @media only screen and (max-width: 500px) {
+      .responsive {
+        width: 100%;
+      }
+    }
+    
+    .clearfix:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  </style>
 
 </head>
-<style>
-    body{
-        background-image:url(Viko-2.png);
-    }
-</style>
+
 
 <body>
-   
-
     <header>
         <nav>
             <ul>
-                <li><a href="#">ONE</a></li>
-                <li><a href="#">TWO</a></li>
-                <li><a href="#">THREE</a></li>
+              <li><a href="#">squild</a></li>
+              <li><a href="#">Octopus</a></li>
+              <li><a href="#">salomon</a></li>
             </ul>
         </nav>
     
@@ -32,25 +75,55 @@
 
     <main>
         <h1>WORK2: SplatGallery</h1>
-        
-        <img src="xinyenoob.png" alt="Work1" id="specialImage">
-    
-        
-
-        <p class="green-text">Lorem ipsum dolor sit,<a href="#">Process</a> amet consectetur adipisicing elit. Cumque laboriosam iure perspiciatis beatae hic dolores atque harum voluptatum quos omnis, quisquam, soluta id, suscipit tenetur. Vero nobis quis voluptatem officiis.</p>
-
-        <img src="Viko-3.png" alt="Work2" id="specialImage">
-
-        <p class="red-text">Lorem ipsum dolor sit,<a href="#">anet consectetur</a> amet consectetur adipisicing elit. Distinctio quis nam sapiente cupiditate tempora architecto, sed asperiores perspiciatis corporis laborum et qui maiores officiis perferendis autem fugit eligendi, beatae sunt.</p>
-
-        <img src="YE9.png" alt="Work3" id="specialImage">
-
-        <p class="em-text">Lorem ipsum dolor sit<a href="#">Printing</a> amet consectetur, adipisicing elit. Ex, qui accusamus. Quo ex tempora quam. Quisquam esse assumenda amet, nisi quam eum doloremque labore mollitia quae modi placeat voluptatibus optio?</p>
-
     </main>
-
     <footer>
 
     </footer>
 </body>
-</html>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="YE9.png">
+      <img src="YE9.png" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc"><a href="#">WORK1</a></div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="xinyenoob.png">
+      <img src="xinyenoob.png" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc"><a href="#">WORK2</a></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Viko-3.png">
+      <img src="Viko-3.png" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc"><a href="#">WORK3</a></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="twins.png">
+      <img src="twins.png" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc"><a href="#">WORK4</a></div>
+  </div>
+</div>
+<div style="padding:6px;">
+  <p class="green-text">Lorem ipsum dolor sit,<a href="#">Process</a> amet consectetur adipisicing elit. Cumque laboriosam iure perspiciatis beatae hic dolores atque harum voluptatum quos omnis, quisquam, soluta id, suscipit tenetur. Vero nobis quis voluptatem officiis.</p>
+
+  <p class="em-text">Lorem ipsum dolor sit<a href="#">Printing</a> amet consectetur, adipisicing elit. Ex, qui accusamus. Quo ex tempora quam. Quisquam esse assumenda amet, nisi quam eum doloremque labore mollitia quae modi placeat voluptatibus optio?</p>
+
+  <p class="red-text">Lorem ipsum dolor sit,<a href="#">anet consectetur</a> amet consectetur adipisicing elit. Distinctio quis nam sapiente cupiditate tempora architecto, sed asperiores perspiciatis corporis laborum et qui maiores officiis perferendis autem fugit eligendi, beatae sunt.</p>
+
+</div>
+
+<div class="clearfix"></div>
+

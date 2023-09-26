@@ -1,11 +1,3 @@
-img{
-   max-width: 100%;
-
-}
-
-#specialImage{
-    max-width: 100%;
-}
 
 main,header{
     
@@ -51,7 +43,7 @@ a{
     background-color: bisque;
 }
 
-@media (min-width: 800px){
+@media (min-width: 500px){
         .red-text,
         .green-text{
             color: blueviolet;
@@ -67,7 +59,7 @@ a{
     ;
 
      }
-     @media (min-width: 1000px){
+     @media (min-width: 700px){
         .red-text,
         .green-text{
             color: blue;

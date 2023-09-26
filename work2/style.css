@@ -1,8 +1,8 @@
 img{
-    max-width: 50%;
+    max-width: 100%;
 }
 #specialmage{
-    max-width: 50%;
+    max-width: 100%;
 }
 
 main,header{
@@ -53,7 +53,7 @@ a{
     background-color: bisque;
 }
 
-@media (min-width: 768px){
+@media (min-width: 500px){
     .green-text{
         color: cadetblue;
     }
@@ -78,18 +78,18 @@ a{
     ;
 
      }
-     @media (min-width: 1024px){
+     @media (min-width: 700px){
         .green-text{
-            background-color: lightgrey;
+            
             color: cornflowerblue;
             font-style: initial;
         }
         .red-text{
-            background-color: lightgrey;
+            
             color: burlywood;
         }
         .em-text{
-            background-color: lightgrey;
+            
             color: chocolate;
         }
         a{
