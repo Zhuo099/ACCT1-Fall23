@@ -10,7 +10,9 @@ main,header{
     margin-right: auto;
 }
 
-
+h1{
+    color: mediumpurple;
+}
 
 nav ul{
 
@@ -46,7 +48,7 @@ a{
     background-color: bisque;
 }
 
-@media (min-width: 800px){
+@media (min-width: 600px){
         .red-text,
         .green-text{
             color: blueviolet;
@@ -56,16 +58,25 @@ a{
         justify-content: space-between;
         
      }
+     h1{
+        color: coral;
+        justify-content: center;
+     }
      nav ul li{
         border:none;
         padding: 0
     ;
 
      }
-     @media (min-width: 1000px){
-        .red-text,
+     @media (min-width: 800px){
+        .red-text{
+            color: burlywood;
+        }
         .green-text{
-            color: blue;
+            color: darkslategrey;
+        }
+        .em-text{
+            color: chocolate;
         }
         
      }
