@@ -1,14 +1,16 @@
+img{
+    max-width: 100%;
+}
+#specialmage{
+    max-width: 100%;
+}
+
 main,header{
     margin-left: auto;
     margin-right: auto;
 }
 
-img{
-    width: 100px;
-}
-#specialmage{
-    width: 100px;
-}
+
 
 nav ul{
 
@@ -21,45 +23,52 @@ nav ul{
 }
 
 nav ul li{
-    display: inline-flex;
+    display: inline-block;
     padding: 10px;
     border-bottom: 1px solid bisque;
 }
 
-.red-text{
-    color: bisque;
+.em-text{
+    font-style: italic;
 }
 
-.purple-text{
-    color: mediumpurple;
+.red-text{
+    color: antiquewhite;
+}
+
+.green-text{
+    color: aquamarine;
 }
 
 a{
-    color: cadetblue;
-    text-decoration: dashed;
-    background-color: beige;
+    color: rgb(15, 15, 15);
+    text-decoration: none;
+    background-color: bisque;
 }
 
-@media(min-width:600px){
-    .red-text
-    .purple-text{
-        color: darkorange;
-    }
-    nav ul{
-        flex-direction: column;
-        justify-content: space-between;
-
-    }
-    nav ul li{
-        border: none;
-        padding: 0;
-    }
-
-    @meida(min-width: 800px;){
+@media (min-width: 800px){
         .red-text,
-        .purple-text{
-            background-color: rgb(10,10,10)
+        .green-text{
+            color: blueviolet;
         }
-    
-    }
+     nav ul{
+        flex-direction: row;
+        justify-content: space-between;
+        
+     }
+     nav ul li{
+        border:none;
+        padding: 0
+    ;
+
+     }
+     @media (min-width: 1000px){
+        .red-text,
+        .green-text{
+            color: blue;
+        }
+        
+     }
 }
+
+ 
