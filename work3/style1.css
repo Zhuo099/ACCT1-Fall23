@@ -1,0 +1,9 @@
+#but1{
+    border:0;
+    width: 220px;
+    height: 220px;
+    background-image: url(picture1.jpeg);
+    background-size: 100%;
+    border: 2px solid rgb(170, 170, 250)
+
+}
