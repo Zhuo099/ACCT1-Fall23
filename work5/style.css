@@ -1,8 +1,52 @@
-html, body {
-    margin: 0;
-    padding: 0;
-  }
-  canvas {
-    display: block;
-  }
-  
+main, hearder{
+  margin-left: auto;
+  margin-right:auto;
+  text-align: center;
+}
+
+h1{
+  color: mediumpurple;
+}
+
+nav ul li{
+  text-align: center;
+  color: blanchedalmond;
+}
+
+
+img {
+  max-width: 400px;
+  max-height: 400px;
+  margin-right: 25px;
+  border: 5px solid blanchedalmond;
+ 
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+.container {
+  display: flex;
+}
+
+green-text {
+  width: 200px; 
+  margin-left: img1; 
+
+}
+
+red-text{
+  width: 200px; 
+  margin-left: img1; 
+
+}
+blue-text{
+  width: 200px; 
+  margin-left: img1;
+}
+
+
