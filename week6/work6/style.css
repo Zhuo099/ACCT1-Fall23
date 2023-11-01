@@ -12,8 +12,8 @@ main iframe {
     height: auto;
     display: block;
     margin: 0 auto;
-    margin-top: 30px; /* 添加顶部间距，根据需要调整 */
-    margin-bottom: 30px; /* 添加底部间距，根据需要调整 */
+    margin-top: 30px; 
+    margin-bottom: 30px;
 
   }
   
@@ -23,8 +23,8 @@ main iframe {
   }
   
   .first-text {
-    max-width: 800px; /* 根据需要调整最大宽度 */
-    margin: 0 auto; /* 水平居中文本 */
+    max-width: 800px;
+    margin: 0 auto;
     text-align: center;
   }
 
