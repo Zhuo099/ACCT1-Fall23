@@ -1,0 +1,31 @@
+main iframe {
+    width: 1200px;
+    height: 700px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+  }
+
+  
+  #specialImage {
+    width: 800px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px; /* 添加顶部间距，根据需要调整 */
+    margin-bottom: 30px; /* 添加底部间距，根据需要调整 */
+
+  }
+  
+  main h1 {
+    color: gold;
+    text-align: center;
+  }
+  
+  .first-text {
+    max-width: 800px; /* 根据需要调整最大宽度 */
+    margin: 0 auto; /* 水平居中文本 */
+    text-align: center;
+  }
+
+  
