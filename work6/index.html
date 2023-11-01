@@ -3,28 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.jsdelivr.net/npm/p5@1.7.0/lib/p5.js"></script>
-    <title>OOP and forces</title>
-    <style>
-        html, body{
-            margin: 0;
-            padding: 0;
-            height: 100%;
-            background-color: black;
-        }
-        body, main{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-    
-    </style>
+    <link href="style.css" rel="stylesheet">
+    <title>Week6</title>
 </head>
 <body>
-    <script src= "sketch.js"></script>
+    <main>
+        <h1>Week6_Homework_Zhuo</h1>
+        <iframe src="https://openprocessing.org/sketch/2070909/embed/" width="1000" height="600"></iframe>
 
+        <img src="picture1.png" alt="step1" id="specialImage">
+
+
+        <p class="first-text" >First step: Try to draw a red circle on screen</p>
+
+        <img src="picture2.png" alt="step2" id="specialImage">
+        <p class="first-text">Change the red circle to a yellow fan, then use the WASD keyboard buttons to control the yellow fan's up left down right movement</p>
+
+
+        <img src="picture3.png" alt="step3" id="specialImage">
+        <p class="first-text">Change the orientation of the yellow fan notch so that the notch faces in the forward direction. (The notch always faces left when you hold down the A button to move left). Use mirror to change the left and right facing directions.</p>
+
+
+        <img src="picture4.png" alt="step4" id="specialImage">
+        <p class="first-text">Use angle to change the top and bottom orientation of the yellow fan notch.Initially use rotate to change orientation, rotating -90 degrees each time you hit the W key. But after rotating it changes back again, resulting in a constant 90 degree rotation of the yellow sector when the W key is held down all the time</p>
+
+
+        <img src="picture5.png" alt="step5" id="specialImage">
+        <p class="first-text">Add a green circle that randomly appears to move.</p>
+
+
+        <img src="picture6.gif" alt="step6" id="specialImage">
+        <p class="first-text">When the yellow fan touches the green circle, the circle disappears. dist() is used to detect if the yellow fan is in contact with the green circle and a collision relationship occurs. When collision occurs: distance < radius, remove the green circle from the canvas (using display will cause the second green ball not to be displayed, don't know how to fix it QAQ)</p>
+
+
+        <img src="picture7.gif" alt="step7" id="specialImage">
+        <p class="first-text">When the green ball disappears, a green ball reappears. Cycle.</p>
+
+
+    </main>
 
     
 </body>
-
 </html>
