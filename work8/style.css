@@ -26,3 +26,14 @@ main iframe {
     display: block;
     margin: 0 auto;
 }
+.centered-link {
+    text-align: center; 
+}
+
+
+.centered-link {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+}
