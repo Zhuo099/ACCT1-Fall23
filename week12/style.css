@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+.image-container, .video-container {
+    flex: 1;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.video-container {
+    width: 100%;
+    padding-left: 20px;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}

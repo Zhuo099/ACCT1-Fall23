@@ -1,0 +1,33 @@
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.text-content {
+    width: 600px;
+    margin-right: 20px;
+    text-align: left;
+}
+
+.video-container {
+    width: 800px; /* 视频容器宽度与文本内容宽度相同 */
+    margin-top: 20px; /* 与文本内容间隔一些距离 */
+}
+
+.video-container video {
+    width: 100%; /* 视频填充整个容器 */
+    height: auto;
+}
+
+.images-container {
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    gap: 10px;
+    justify-content: end;
+}
+
+.images-container img {
+    width: 400px;
+    height: auto;
+}
