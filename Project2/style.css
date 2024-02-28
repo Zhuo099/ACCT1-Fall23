@@ -37,3 +37,12 @@ main iframe {
     align-items: center; 
     height: 100vh;
 }
+.video-container video {
+    width: 800px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px; 
+    margin-bottom: 30px;
+
+}
